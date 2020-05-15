@@ -17,54 +17,48 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-			  <li class="nav-item active">
-				<a class="nav-link" href="#">Koti</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="tuotteet.html">Tuotteet</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="myymalat.html">Myymälät</a>
-			  </li>
-			  <li class="nav-item">
-				  <a class="nav-link" href="contact.html">Ota yhteyttä</a>
-			  </li>
-			</ul>
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="index.html">Koti</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="tuotteet.html">Tuotteet</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="myymalat.html">Myymälät</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ota yhteyttä</a>
+            </li>
+		  </ul>
 		</div>
 	</nav>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="kahvi1.png" alt="Card image cap">
-					<div class="card-body">
-					  <h5 class="card-title">Card title</h5>
-					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					</div>
-				  </div>
-			</div>
-			<div class="col-md-4">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="kahvi1.png" alt="Card image cap">
-					<div class="card-body">
-					  <h5 class="card-title">Card title</h5>
-					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					</div>
-				  </div>
-			</div>
-			<div class="col-md-4">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="kahvi1.png" alt="Card image cap">
-					<div class="card-body">
-					  <h5 class="card-title">Card title</h5>
-					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					</div>
-				  </div>
-			</div>
-		</div>
+        <form method="get" action="lahetetty.html">
+            <label class="col-md-4" for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        
+            <label class="col-md-4" for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        
+            <label class="col-md-4" for="email">Email</label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label class="col-md-4" for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="finland">Finland</option>
+              <option value="usa">USA</option>
+              <option value="sweden">Sweden</option>
+            </select>
+        
+            <label class="col-md-4" for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        
+            <input type="submit" value="Lähetä">
+          </form>
 	</div>
-			
 		<div class="footer">
 				<footer class="footer">Verkkosivujen kehittäminen &copy;
 			</footer>
