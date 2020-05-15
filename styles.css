@@ -36,7 +36,6 @@ nav
 img
 {
 	padding: 5px;
-	background-color: gb-light;
 	
 }
 
@@ -103,13 +102,13 @@ h1
 
 .fa-instagram 
 {
-	background: bg-light;
+	
 	color: rgb(173, 92, 45);
 }
 
 .fa-facebook 
 {
-	background: bg-light;
+	
 	color: blue;
 }
 
