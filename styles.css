@@ -7,32 +7,36 @@
 {
 	border-bottom: 1px solid black;
 }
+
 .header
 {
 	text-align: center;
-	
 }
+
 .row
 {
-background: white;
+
 color: black;
 }
 .col-md-4
 {
 	color: black;
+	
 }
 .col-md-6
 {
 	color: green;
 }
 
-nav{
+nav
+{
 	border-bottom: 3px solid black;
 }
 
 img
 {
 	padding: 5px;
+	background-color: gb-light;
 	
 }
 
@@ -47,6 +51,7 @@ footer
 	box-sizing: border-box;
 }
 
+/* Contact form / Yhteydenotto */
 input[type=text], select, textarea {
 	width: 70%;
 	padding: 12px;
@@ -77,9 +82,35 @@ input[type=submit]:hover {
 	padding: 20px;
 }
 
+/* After submit / Lähetyksen jälkeen*/
 h1
 {
 	text-align: center;
 	padding: 5px;
 	margin: 5px;
 }
+
+/* Social media buttons*/
+.fa
+{
+	padding: 5px;
+	font-size: 10px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.fa-instagram 
+{
+	background: bg-light;
+	color: rgb(173, 92, 45);
+}
+
+.fa-facebook 
+{
+	background: bg-light;
+	color: blue;
+}
+
+  
